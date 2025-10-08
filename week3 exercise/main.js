@@ -19,7 +19,7 @@ document.body.appendChild(renderer.domElement);
 const planeGeometry = new THREE.PlaneGeometry(10, 10);
 const planeMaterial = new THREE.MeshStandardMaterial({ color: 0x884444 });
 const floor = new THREE.Mesh(planeGeometry, planeMaterial);
-floor.rotation.x = -Math.PI / 2; 
+floor.rotation.x = -Math.PI / 2;
 floor.position.y = -1;
 scene.add(floor);
 
