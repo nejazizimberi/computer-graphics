@@ -1,6 +1,5 @@
 import * as THREE from 'three';
 import { ThreeMFLoader } from 'three/examples/jsm/Addons.js';
-
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x202020);
 
@@ -26,5 +25,4 @@ function animate() {
     cubeMesh.rotation.y += 0.01;
     renderer.render(scene,camera);
 }
-
 animate();
